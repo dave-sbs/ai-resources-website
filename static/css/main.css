@@ -9,7 +9,8 @@ body a:hover {
 
 h2,
 h3 {
-  font-family: "Lato";
+  font: "Montserrat";
+  /* font-family: "Lato"; */
 }
 
 label:text-muted,
@@ -18,8 +19,9 @@ label:text-muted,
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  background-color: rgba(236, 241, 246, 1);
+  font: "Montserrat";
+  /* font-family: "Lato", sans-serif; */
+  background-color: rgb(255, 255, 255);
 }
 
 .container a:hover {
@@ -27,7 +29,8 @@ body {
 }
 
 .jumbotron {
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
+  font: "Montserrat";
   background-color: rgba(236, 241, 246, 1);
 }
 
@@ -40,8 +43,8 @@ body {
 }
 
 #main-nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .header {
@@ -49,16 +52,21 @@ body {
 }
 
 .pp-card {
-  font-family: "Exo";
-  box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1);
+  font: "Montserrat";
+  /* box-shadow: 0 0 14px 0 rgb(255, 0, 0); */
   margin-bottom: 1em;
+  /* margin: 20px auto; */
+  /* background-color: #f8f8f8; */
+  /* padding: 20px; */
+  /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 8px; */
   display: block;
   overflow: hidden;
 }
 
 .pp-card-header {
   border: 4px solid #eee;
-  font-family: "Exo";
+  font: "Montserrat";
   height: 340px;
   padding-top: 10px;
   padding-left: 15px;
@@ -96,7 +104,7 @@ body .nav-pills .nav-link.active {
 }
 
 .card {
-  font-family: "Exo";
+  font: "Latto";
 }
 
 .card-header {
@@ -268,32 +276,32 @@ body .carousel-control-prev {
   fill: #000;
 }
 
-.checkbox-paper {
+/* .checkbox-paper { */
   /*opacity: 0.2;*/
-  color: #fcfcfc;
+  /* color: #fcfcfc;
   font-size: 14pt;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 100ms;
-}
+} */
 
-.checkbox-bookmark {
+/* .checkbox-bookmark {
   color: #ddd;
   font-size: 18pt;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 100ms;
-}
+} */
 
-.checkbox-paper.selected {
+/* .checkbox-paper.selected {
   opacity: 1;
   color: #6c757d;
-}
+} */
 
-.checkbox-bookmark.selected {
+/* .checkbox-bookmark.selected {
   opacity: 1;
   color: #bed972;
-}
+}  */
 
 /*@supports (-webkit-text-stroke: 1px gray) {*/
 /*  .checkbox-paper {*/
@@ -306,4 +314,4 @@ body .carousel-control-prev {
 /*    opacity: 1;*/
 /*    -webkit-text-fill-color: #bed972;*/
 /*  }*/
-/*}*/
+}

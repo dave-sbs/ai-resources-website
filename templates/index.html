@@ -1,7 +1,19 @@
 {% set active_page = "Home" %}
 {% extends "base.html" %}
 
+{% block head %}
+{{ super() }}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+<script src="static/js/modules/icons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+{% endblock %}
+
+
 {% block top %}
+
 <style>
   .back {
     background: url("{{config.background_image}}") no-repeat center;
@@ -31,8 +43,21 @@
 
 {{ readme | markdown }}
 
-<!-- Organizers -->
-{{ components.section("Organizers") }}
-{{ components.organizergroup(committee) }}
+<!-- Cards -->
+{{ components.section("AI Tools") }}
+<div class="cards row"></div>
+<script src="static/js/modules/urlParams.js"></script>
+<script src="static/js/modules/typeaheadSetup.js"></script>
+<script src="static/js/modules/lazyLoad.js"></script>
+<script src="static/js/data/persistor.js"></script>
+<script src="static/js/data/wrangle.js"></script>
+<script src="static/js/views/papers.js"></script>
+<script>
+  $(document).ready(function () {
+    tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
+    start();
+  });
+</script>
 
 {% endblock %}
+
