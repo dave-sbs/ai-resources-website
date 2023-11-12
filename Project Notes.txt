@@ -1,0 +1,39 @@
+Site data is basically a collecction of different CSV and YML files for the websites.
+These files are basically the main content of the website
+
+Home Page
+- Simplify laout to adjust to our needs
+    - Header info in config.YML
+    - Navbar info in base.html
+    - Home page info in index.html
+- Clicking link to a paper takes to a new webpage/html  
+    - Minimizing the content in there to our needs
+- Add posters to home page
+    - What codebases take papers.csv and manipulate the data???
+    - Need to reduce the size of posters.
+    - Edit the appearance of the poster as well.
+
+Add/Remove Features
+    - Do we want Google Analytics? 
+    - Do we want Navbar? Yes. 
+
+Background
+
+
+
+
+
+- So I could either make the poster section a component. Like adapt the code so that it becomes a component or I could integrate it directly to the index.html. 
+- I think if I go the component route I would only need to add stuff to the csv and it'll display the new posters depending on the data there. So I think it'll be easier for editing and future use by other people.  
+- This is currently a working theory, but the only real use of components is if the same components get reused on multiple pages. 
+- Cause I think I could also change csv data to get what I want out of posters code.
+
+
+
+Future Changes;
+- Background image change: config.YML
+- Logo Change: config.YML (Colby logo)? DAI Logo?
+- Website link logo change: 
+- Make Github link work
+- Reduce number of params in CSV: README (sitedata)
+- Increase overall width of the content
