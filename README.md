@@ -1,4 +1,4 @@
-#### This site hosts AI tools and resources recommended by the Davis Institute for Artificial Intelligence.
+#### This site hosts AI tools and resources recommended by the Davis Institute for Artificial Intelligence. (Better Tagline )
 
 Each tool or resource is accompanied by:
 
