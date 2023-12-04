@@ -20,6 +20,12 @@ Add/Remove Features
 Background
 
 
+Comments on design
+    - Change the font/Make it more 'friendly'
+    - Include the vector images in the style of images on kaggle
+    - Include some colors
+
+
 
 
 
@@ -35,5 +41,12 @@ Future Changes;
 - Logo Change: config.YML (Colby logo)? DAI Logo?
 - Website link logo change: 
 - Make Github link work
-- Reduce number of params in CSV: README (sitedata)
 - Increase overall width of the content
+- Include Images in each model page
+
+
+
+
+
+
+keywords: OpenPose is a sophisticated tool designed to identify and track various points on the human body, hands, face, and feet. It analyzes images or videos to pinpoint 135 specific locations, or 'keypoints', that represent important parts of the body and face.|OpenPose is a sophisticated tool designed to identify and track various points on the human body, hands, face, and feet. It analyzes images or videos to pinpoint 135 specific locations, or 'keypoints', that represent important parts of the body and face.|Here are some advantages of OpenPose that we appreciate|OpenPose is capable of detecting key points on the body: 25 points on the body itself, 21 on each hand, and 70 on the face. This means it can analyze and understand the posture and gestures of a person in images and videos.|It is a free tool that receives regular updates. This ensures that if any of the software components it relies on are updated or changed, OpenPose is also updated to maintain compatibility and functionality.|The tool provides a way to understand human movements and activities in videos by mapping out body keypoints. This is done without revealing personal, identifiable details about the individuals, preserving their privacy.|The keypoints OpenPose detects in videos have various applications. They can be used in areas like fitness training, sports analysis, studying physical activities, and even in the performing arts, offering a broad range of practical uses.|Despite its benefits, there are some limitations to OpenPose that we should consider:|While OpenPose performs effectively with still images, its performance drops with longer video sequences. It tends to process videos more slowly, which can be a limitation in real-time or lengthy video analysis.|OpenPose excels in analyzing videos with a single person. However, its performance is less reliable in videos with multiple people. It may mix up or misidentify individuals, especially if they move close to each other or overlap in the video frame.

@@ -7,11 +7,21 @@ body a:hover {
   text-decoration: none;
 }
 
+a {
+  font-size: 1.08em;
+  font-weight: bolder;
+}
+
 h2,
 h3 {
   font: "Montserrat";
   /* font-family: "Lato"; */
 }
+
+/* Change in index.html */
+/* h2 {
+  color: rgb(1 33 105);
+} */
 
 h4 {
   text-align: center;
@@ -76,15 +86,9 @@ body {
 }
 
 .pp-card {
-  font: "Montserrat";
-  /* box-shadow: 0 0 14px 0 rgb(255, 0, 0); */
-  margin-bottom: 1em;
-  /* margin: 20px auto; */
-  /* background-color: #f8f8f8; */
-  /* padding: 20px; */
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-  /* border-radius: 8px; */
-  width: 340px;
+  margin: 15px;
+  /* margin-bottom: 37px; */
+  width: 340px; /* Gotta change this to adjust for resizing windows */
   display: block;
   overflow: hidden;
 }
@@ -177,25 +181,62 @@ h3.card-subtitle.text-muted {
   font-family: "Exo";
 }
 
-.myAccordion {
-  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-bottom: 18px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  padding-top: 10px;
-  background-color: rgba(255, 255, 255, 1);
+/* -------------------------------POSTER PAGE------------------------------- */
+
+/* Title text styling */
+.title-text {
+  font-size: 1.8em; /* 25.6px if the base font size is 16px */
+  /* text-decoration: underline; */
+  color: rgb(1 33 105);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
-.sponsorLogo {
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+/* Model name styling */
+.model-name {
+  font-size: 1.6em; /* 22.4px if the base font size is 16px */
+  color: #3e3b3b;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: bold;
 }
+
+/* Introductory statement styling */
+.intro-statement {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #2a2a2a;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+}
+
+/* Start of list styling */
+.start-list {
+  font-size: 1.2em; /* 19.2px if the base font size is 16px */
+  color: #2a2a2a;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/* Model description list styling */
+.model-description {
+  list-style-type: disc; /* Default style */
+  margin-left: 20px; /* Indentation for the list */
+  padding-left: 0;
+}
+
+.model-description li {
+  font-size: 1.05em; /* 16px */
+  color: #444;
+  margin-bottom: 0.25em; /* Spacing between list items */
+  line-height: 1.6; /* Spacing between lines within an item */
+}
+
+/* -------------------------------POSTER PAGE FINISH------------------------------- */
 
 .slp iframe {
   background: #fff;
