@@ -37,6 +37,7 @@ Comments on design
 
 
 Future Changes;
+- Cards resize weirdly when changing the window size
 - Background image change: config.YML
 - Logo Change: config.YML (Colby logo)? DAI Logo?
 - Website link logo change: 
@@ -44,6 +45,13 @@ Future Changes;
 - Increase overall width of the content
 - Include Images in each model page
 
+
+
+
+
+
+keywords: Whisper AI is an advanced model developed to recognize and transcribe speech across multiple languages and accents. It processes audio to accurately identify words and phrases, utilizing deep learning techniques to adapt to various speech patterns and contexts.|Here are some advantages of Whisper AI that we like|It handles transcriptions of any length, from brief sentences to extended speeches, making it incredibly versatile for diverse needs.|Whisper excels in transcribing speech from various sources, handling diverse languages and accents with ease. This capability allows it to accurately convert spoken words into text, regardless of the speaker's origin or speech nuances.|Whisper is remarkably accurate. Ensures reliable and precise transcription with relatively low error rate.|Whisper AI is designed for user-friendly interaction, requiring no specialized knowledge in speech processing. Its sophisticated engineering simplifies the transcription process, making advanced speech recognition accessible to a broad user base.
+|Despite its benefits, there are some limitations to Whisper AI that we should consider|Whisper ouputs transcripts in ~30 second segments. Therefore, it might cut off the speaker mid-turn, mid-utteracnce, or mid-word.|Whisper AI doesn't pinpoint the exact moments when each word or smaller sound is spoken in a recording. It transcribes what is said, but doesn't specify when each part of the speech starts or ends.|The authors of the model say they trained on 680,000 hours of speech+text collected from the internet. However, they don't provide details on how or from where the data was collected.
 
 
 
