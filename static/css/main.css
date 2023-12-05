@@ -38,11 +38,6 @@ h5 {
   line-height: 1.5em;
 }
 
-label:text-muted,
-.nav-link {
-  font-family: "Lato";
-}
-
 body {
   font: "Montserrat";
   /* font-family: "Lato", sans-serif; */
@@ -73,11 +68,19 @@ body {
   padding-bottom: 1px;
 }
 
+label:text-muted,
+.nav-link {
+  font-family: "Lato";
+}
+
+.nav-item {
+  font-size: 20px;
+}
 .header {
   font: "Montserrat";
 }
 
-/* CARDS */
+/* -------------------------------CARDS------------------------------- */
 .card-title {
   color: black;
   font-size: large;
@@ -88,18 +91,26 @@ body {
 .pp-card {
   margin: 15px;
   /* margin-bottom: 37px; */
-  width: 340px; /* Gotta change this to adjust for resizing windows */
+  width: 100%;
+  max-width: 340px; 
   display: block;
   overflow: hidden;
 }
 
 .pp-card-header {
-  border: 1px solid #000000;
+  border-radius: 15px;
+  border: 1.3px solid rgb(231, 231, 231);
   font: "Montserrat";
-  height: 340px;
+  min-height: 340px; /* Default minimum height */
+  flex-basis: 24%;
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.pp-card-header:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
 }
 
 .pp-mode-mini .pp-card-header {
@@ -120,7 +131,7 @@ body {
 .cards_img {
   margin-top: 20px;
   border-radius: 2px;
-  max-height: 130px;
+  max-height: 180px;
   object-fit: scale-down;
 }
 
@@ -146,8 +157,10 @@ body .nav-pills .nav-link.active {
 
 .cards.myCard {
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row wrap;
   margin-left: 0;
+  justify-content: space-around;
+  align-items: stretch;
   box-sizing: border-box;
 }
 
@@ -181,7 +194,24 @@ h3.card-subtitle.text-muted {
   font-family: "Exo";
 }
 
+/* Ensure the .pp-card scales down on smaller screens */
+@media (max-width: 768px) {
+  .pp-card {
+    max-width: none; /* Allow the card to fill the container */
+    width: auto; /* Set width to auto to fill the flex container */
+  }
+
+  .pp-mode-mini .pp-card-header {
+    min-height: 175px; /* Responsive height for mini mode */
+  }
+}
+
 /* -------------------------------POSTER PAGE------------------------------- */
+
+/* Task name styling */
+.task-name {
+  font-size: 40px;
+}
 
 /* Title text styling */
 .title-text {

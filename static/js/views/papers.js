@@ -225,6 +225,7 @@ const card_image = (paper, show) => {
     return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper)}" width="80%"/></center>`;
   return "";
 };
+                      
 
 const card_detail = (paper, show) => {
   if (show)

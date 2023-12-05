@@ -67,7 +67,8 @@ class API {
    * @return {string}
    */
   static thumbnailPath(paper) {
-    return `https://iclr.github.io/iclr-images/small/${paper.UID}.jpg`;
+    
+    return `https://raw.githubusercontent.com/dave-sbs/image-hosting/main/${paper.UID}.png`;
   }
 
   /**

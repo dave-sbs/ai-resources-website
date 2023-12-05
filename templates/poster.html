@@ -31,7 +31,7 @@
     /* font-family: "Lato", sans-serif; */
     font: "Montserrat";
     font-weight: 900;
-    font-size: 270%;
+    font-size: 320%;
     color: rgb(1 33 105);
   }
 
@@ -46,7 +46,7 @@
       <h2 class="p-5">
         <!-- {{config.date|safe}} -->
       </h2>
-      <h2>
+      <h2 class="task-name">
         {{paper.title}}
       </h2>
     </div>
@@ -81,57 +81,4 @@
     
     
 </div>
-
-<!-- Title -->
-<!-- <div class="pp-card m-3" style="">
-    <div class="card-header">
-        <h2 class="card-title main-title text-center" style="">
-            {{paper.title}}
-        </h2>
-        <h3 class="card-subtitle mb-2 text-muted text-center">
-            {% for author in paper.authors %}
-            <a href="papers.html?filter=authors&search={{author}}"
-               class="text-muted"
-            >{{author}}</a
-            >{{ "," if not loop.last }}
-            {% endfor %}
-        </h3>
-        <p class="card-text text-center">
-            <span class="">Keywords:</span>
-            {% for keyword in paper.keywords %}
-            <a
-                    href="papers.html?filter=keywords&search={{keyword}}"
-                    class="text-secondary text-decoration-none"
-            >{{keyword}}</a
-            >{{ "," if not loop.last }}
-            {% endfor %}
-        </p>
-        <div class="text-center p-3">
-            <a class="card-link" data-toggle="collapse" role="button"
-               href="#details">
-                Abstract
-            </a>
-            <a class="card-link" target="_blank" href="{{paper.link}}">
-                Paper
-            </a>
-            {% if paper.code_link != blank %}
-            <a href="{{paper.code_link}}" target="_blank" class="card-link">
-                Code
-            </a>
-            {% endif %}
-        </div>
-    </div>
-</div>
-<div id="details" class="pp-card m-3 collapse">
-    <div class="card-body">
-        <div class="card-text">
-            <div id="abstractExample">
-                <span class="font-weight-bold">Abstract:</span>
-                {{paper.abstract}}
-            </div>
-        </div>
-        <p></p>
-    </div>
-</div> -->
-
 {% endblock %}
