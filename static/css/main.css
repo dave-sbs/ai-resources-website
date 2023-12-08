@@ -48,8 +48,7 @@ body {
   text-decoration: none;
 }
 
-/* NAV SECTION */
-.jumbotron {
+/.jumbotron {
   /* font-family: "Lato", sans-serif; */
   font: "Montserrat";
   background-color: rgba(236, 241, 246, 1);
@@ -79,6 +78,7 @@ label:text-muted,
 .header {
   font: "Montserrat";
 }
+
 
 /* -------------------------------CARDS------------------------------- */
 .card-title {
