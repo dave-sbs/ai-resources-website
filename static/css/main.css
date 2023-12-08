@@ -48,7 +48,8 @@ body {
   text-decoration: none;
 }
 
-/.jumbotron {
+/* -------------------------------NAVBAR SECTION------------------------------- */
+.jumbotron {
   /* font-family: "Lato", sans-serif; */
   font: "Montserrat";
   background-color: rgba(236, 241, 246, 1);
@@ -412,4 +413,3 @@ body .carousel-control-prev {
 /*    opacity: 1;*/
 /*    -webkit-text-fill-color: #bed972;*/
 /*  }*/
-}
